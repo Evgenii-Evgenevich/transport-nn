@@ -45,4 +45,4 @@ prediction = clf.predict(test)
 np.savetxt('transport_output.txt', prediction, fmt="%s")
 
 # end time
-print((time.time() - start)/60)
+print((time.time() - start))
